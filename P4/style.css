@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -264,27 +264,14 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.voffset-lg {
-    margin-top: 80px;
-}
-
 .voffset {
     margin-top: 30px;
 }
 
-.voffset blockquote {
-    border-left: none;
-}
-.voffset h3 {
-    font-size: large;
-    font-weight: 400;
-    line-height: 32px;
+.voffset-lg {
+    margin-top: 80px;
 }
 
-#bloc-5-cta article {
-    width: 60%;
-    margin: auto;
-}
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -672,7 +659,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: xx-large;
+    font-size: 38px;
 }
 
 .hero-bloc-text-sub {
@@ -695,9 +682,8 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto;
+    margin: auto auto auto auto;
 }
-.tight-width-whitespace img{margin-top: 15px;}
 
 .h1 {
     font-size: 20px;
@@ -705,29 +691,18 @@ p {
 }
 
 .cta-hero {
-    margin: 22px 0 15px;
+    margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: medium;
+    font-size: 16px;
     font-weight: 700;
-    background: #000;
 }
 
 .social {
     max-width: 400px;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
+    margin: auto auto auto auto;
 }
-.social+.row {
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-evenly;
-}
-/* .social+.row h3 {
-    
-} */
 
 h2 {
     font-size: 22px;
@@ -745,10 +720,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-.presentation p {
-    font-size: small;
 }
 
 h1 {
@@ -776,26 +747,19 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
-.portfolio-row p {font-size: small;}
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+.black-background {
+    background-color: rgba(165, 147, 99, 0.7);
+    padding: 40px 40px 40px 40px;
 }
 
-.item-presentation2 {padding: 40px;}
-.item-presentation2 .mg-md+p {font-size: small;}
-.item-presentation2 .mg-md+p+p {margin-top: 15px;}
-.item-presentation2 a {
-    font-size: medium; font-weight: 900;
+.bold-link {
+    font-weight: 900;
     text-decoration: underline!important;
-}
-.item-presentation2 a:hover {
-    color: #FFF!important;
 }
 
 .bgc-white {
@@ -807,7 +771,29 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f3976c;
+    background-color: #F3976C;
+}
+
+.tc-white {
+    color: #F3976C!important;
+}
+
+.btn-atomic-tangerine {
+    background: #F3976C;
+    color: #FFFFFF!important;
+}
+
+.btn-atomic-tangerine:hover {
+    background: #c27956!important;
+    color: #FFFFFF!important;
+}
+
+.ltc-white {
+    color: #FFFFFF!important;
+}
+
+.ltc-white:hover {
+    color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
@@ -824,20 +810,21 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
+}
+
+.bg-lines-h2-bg {
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
 
-.bg-presentation2 {
-    background-image: url("img/image-de-presentation.bmp");
+.bg-presentation {
+    background-image: url("../img/image-de-presentation.bmp");
 }
 
-#bloc-4-portfolio .row:nth-child(3) img {
-    width: 100%
-}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1039,18 +1026,8 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    .item-presentation2 .mg-md+p+p{padding-bottom: 20px;}
 }
 
-@media (max-width: 500px) {
-    .item-presentation2 {padding: 40px 0;}
-    .bgc-atomic-tangerine,
-    #bloc-5-cta article{
-        width: 100%;
-        height: 100%;
-    }
-    /* .bloc-lg:nth-child(1){padding: 0 0 10px;} */
-}
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
