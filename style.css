@@ -820,10 +820,6 @@ a:hover, #mailto:hover {
     text-decoration: none;
 }
 
-.bg-dots-bg {
-    background-image: url("img/compressed/dots-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/compressed/la-chouette-agence-banniere.jpg");
 }
