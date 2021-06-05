@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/img-inutile/texture-paper.png");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -275,7 +275,6 @@ a:hover {
 .voffset blockquote {
     border-left: none;
 }
-cite {color: #333}
 .voffset h3 {
     font-size: large;
     font-weight: 400;
@@ -667,7 +666,7 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-#h2-presentation2{color:#333333!important;}
+
 .container {
     max-width: 1000px;
 }
@@ -691,7 +690,7 @@ a {
 }
 
 p {
-    font-size: medium;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -748,6 +747,10 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
+.presentation p {
+    font-size: small;
+}
+
 h1 {
     color: #333333!important;
 }
@@ -773,6 +776,7 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
+.portfolio-row p {font-size: small;}
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -784,7 +788,7 @@ h4 {
 }
 
 .item-presentation2 {padding: 40px;}
-.item-presentation2 .mg-md+p {color: #333!important;}
+.item-presentation2 .mg-md+p {font-size: small;}
 .item-presentation2 .mg-md+p+p {margin-top: 15px;}
 .item-presentation2 a {
     font-size: medium; font-weight: 900;
@@ -820,15 +824,15 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/compressed/dots-bg.png");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/compressed/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation2 {
-    background-image: url("img/compressed/image-de-presentation.jpeg");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 #bloc-4-portfolio .row:nth-child(3) img {
@@ -1059,4 +1063,3 @@ h4 {
         text-align: center;
     }
 }
-
