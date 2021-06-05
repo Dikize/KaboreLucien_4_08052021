@@ -667,7 +667,6 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-#h2-presentation2{color:#333333!important;}
 .container {
     max-width: 1000px;
 }
@@ -784,15 +783,13 @@ h4 {
 }
 
 .item-presentation2 {padding: 40px;}
-.item-presentation2 .mg-md+p {color: #333!important;}
+.item-presentation2 .mg-md+p, .bgc-atomic-tangerine .mg-md, #bloc-8 p{color: #333!important;}
 .item-presentation2 .mg-md+p+p {margin-top: 15px;}
-.item-presentation2 a {
-    font-size: medium; font-weight: 900;
+.item-presentation2 p a {
+    font-size: medium; font-weight: 900; color:#333333!important;
     text-decoration: underline!important;
 }
-.item-presentation2 a:hover {
-    color: #FFF!important;
-}
+.item-presentation2 a:hover {color: #FFF!important;}
 
 .bgc-white {
     background-color: #FFFFFF;
