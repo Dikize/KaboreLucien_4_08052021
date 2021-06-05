@@ -13,7 +13,7 @@ button {
     outline: none!important;
 }
 
-a:hover {
+a:hover, #mailto {
     text-decoration: none;
     cursor: pointer;
 }
@@ -667,6 +667,7 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+#form_1 label {font-size:medium}
 .container {
     max-width: 1000px;
 }
@@ -782,14 +783,17 @@ h4 {
     color: #FFFFFF!important;
 }
 
+#bloc-6 p {color: #333!important}
 .item-presentation2 {padding: 40px;}
 .item-presentation2 .mg-md+p, .bgc-atomic-tangerine .mg-md, #bloc-8 p{color: #333!important;}
 .item-presentation2 .mg-md+p+p {margin-top: 15px;}
-.item-presentation2 p a {
+#mailto+p{margin: 10px 0 2px;}
+.item-presentation2 p a,#mailto {
     font-size: medium; font-weight: 900; color:#333333!important;
     text-decoration: underline!important;
 }
-.item-presentation2 a:hover {color: #FFF!important;}
+.item-presentation2 a:hover{color: #FFF!important;}
+#mailto:hover {color: #c27956!important;}
 
 .bgc-white {
     background-color: #FFFFFF;
