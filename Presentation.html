@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Présentation de la chouette agence</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="static/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="static/css/style.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <p>Suppression des codes non utilise avec Coverage</p>
+    <p></p>
+
+    <section class="container-fluid">
+        <div class="row">
+
+            <div class="col-12">
+                <h1 class="text-center p-4">Optimisation du référencement SEO de La Chouette Agence</h1>
+
+                <div class="mx-5 d-flex justify-content-center flex-column">
+                    <h2 class="h1 text-center my-5"><ins>Compte-rendu mission</ins></h2>
+                    <p class="lead fs-4">La chouette agence est une agence de web design basée à Lyon. La visibilité de la société a diminuée récemment. En tapant “Entreprise web design Lyon” sur Internet le site de l’agence apparaît seulement en deuxième position dans les moteurs de recherche.</p>
+                    <p class="lead fs-4">Plan d’action pour l'améliorer du référencement du site web.</p>
+                    <p class="lead fs-4">Les étapes à réaliser sont :</p>
+                    
+                    <ol class="lead fs-4">
+                        <li>Une analyse de l’état du SEO du site fourni. Visant à détecter les points d’amélioration au niveau de performance, visibilité et accessibilité.</li>
+                        <li>Amélioration du SEO du site. Implémentation des améliorations suggérées dans l’étape d’analyse. Le site doit également passer le validateur W3C pour HTML et CSS.</li>
+                        <li>Analyse comparative des résultats.</li>
+                    </ol>
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-6 p-5">
+                        <div class="list-group">
+                            <a href="#access" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Rapport d’analyse</h5>
+                                    <span class="badge bg-primary rounded-pill my-1">4</span>
+                                </div>
+                                <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                <small>And some small print.</small>
+                            </a>
+                            <a href="#seo" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Rapport d’optimisation</h5>
+                                    <span class="badge bg-primary rounded-pill my-1">4</span>
+                                </div>
+                                <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                <small class="text-muted">And some muted small print.</small>
+                            </a>
+                            <a href="#perf" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Analyse comparative des résultats</h5>
+                                    <span class="badge bg-primary rounded-pill my-1">2</span>
+                                </div>
+                                <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                <small class="text-muted">And some muted small print.</small>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="h1 text-center mt-5"><ins>Rapport d’analyse</ins></h2>
+                <!-- Tableau Accessibilité -->
+                <div class="col-12 my-5" id="access">
+                    <h2 class="text-center">Accessibilité</h2>
+                    <table class="table table-hover table-striped table-bordered border-info text-center fs-5">
+                        <thead>
+                            <tr>
+                                <th scope="col">Problème identifié</th>
+                                <th scope="col">Explication du problème</th>
+                                <th scope="col">Bonne pratique à adopter</th>
+                                <th scope="col">Action recommandée</th>
+                                <th scope="col">Référence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p><code>html lang = "Default"</code></p>
+                                </td>
+                                <td>
+                                    <p>L'élément <code>html</code> n'a pas de valeur valide<code>(Default)</code> pour son attribut <code>[lang]</code> selon la syntaxe de l' IETF de BCP 47 .</p>
+                                </td>
+                                <td>
+                                    <p>Pour garantir une prononciation correcte de la page dans son ensemble pour les utilisateurs de lecteurs d'écran, on ce doit de spécifier une langue BCP 47 valide pour l'élément <code>html</code>.</p>
+                                </td>
+                                <td>
+                                    <p>Utilisez un code de langue valide dans l'attribut lang, ici <code>html lang="fr"</code> pour la langue local française.</p>
+                                </td>
+                                <td>
+                                    <!-- <p>https://www.w3.org/International/questions/qa-choosing-language-tags#question</p> -->
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p>Éléments d'en-tête </p>
+                                    <p>Balise title <br> <code> «Hn»</code></p> 
+                                </td>
+                                <td>
+                                    <p>Les éléments Hn ne sont pas dans un ordre séquentiel décroissant</p>
+                                    <p>H3 avant les H2, le robots d’indexations ne comprend pas la hiérarchie de la page.</p>
+                                </td>
+                                <td>
+                                    <p>Les en-têtes correctement ordonnés qui ne sautent pas de niveaux transmettent la structure sémantique de la page, ce qui facilite la navigation et la compréhension lors de l'utilisation de technologies d'assistance.</p>
+                                </td>
+                                <td>
+                                    <p>Faire en sorte que tous les éléments d'en-tête suivent un ordre numérique logique qui reflète la structure de votre contenu.</p>
+                                </td>
+                                <td>
+                                    <p>referenseo.com</p>
+                                    <p>ronan-hello.fr</p>
+                                    <p>cap-visibilite.fr</p>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <p>Les couleurs d'arrière-plan et de premier plan n'ont pas un rapport de contraste suffisant.</p>
+                                </td>
+                                <td>
+                                    <p>la luminosité de certains texte est trop proche de la luminosité de l'arrière-plan, donc difficile à lire.</p>
+                                </td>
+                                <td>
+                                    <p>Pour un bon contraste, il faut un rapport de 4,5:1 pour le texte classique et 3:1 pour les grandes tailles ( 24px, ou gras et d'au moins 18,5px )</p>
+                                </td>
+                                <td>
+                                    <p>Mettre la page conforme aux ratios de contraste de couleur minimum spécifiés par WCAG</p>
+                                </td>
+                                <td>
+                                    <!-- <p>https://developer.mozilla.org/fr/docs/Tools/Accessibility_inspector</p> -->
+                                    <!-- <p>https://developer.mozilla.org/fr/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast</p> -->
+                                    <!-- <p>https://www.w3.org/TR/WCAG/#contrast-minimum</p> -->
+                                    <!-- <p>https://www.w3.org/TR/2018/REC-css-color-3-20180619/#transparency</p> -->
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p>Certains textes sont des images ce qui pose problème pour les personnes utilisant des lecteurs d'écran.</p>
+                                </td>
+                                <td>
+                                    <p>Mettre </p>
+                                </td>
+                                <td>
+                                    <p></p>
+                                </td>
+                                <td>
+                                    <p>En plus de renforcer la visibilité dans les moteurs de recherche, utiliser du vrai texte et non des textes sous forme d’image permet aux visiteurs avec un handicap visuel ou cognitif de comprendre l’information.</p>
+                                </td>
+                                <td>
+                                    <!-- <p>https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/visual-audio-contrast-text-presentation.html</p> -->
+                                    <!-- <p>https://accessibility.belgium.be/fr/articles/images/utilisez-du-vrai-texte-et-pas-du-texte-sous-forme-dimage</p> -->
+                                </td>
+                            </tr>
+
+                                
+                        <tr>
+                            <td>
+                                <p>Les liens non discernable</p>
+                            </td>
+                            <td>
+                                <p>Les liens n'ont pas de nom discernable</p>
+
+                            </td>
+                            <td>
+                                <p>Le texte de lien qui est discernable, unique et focalisable améliore l'expérience de navigation des utilisateurs de lecteurs d'écran et d'autres technologies d'assistance.</p>
+                            </td>
+                            <td>
+                                <p>Ajoutez un texte correspondant à l'action lors d'un clique sur les 4 liens.</p>
+                            </td>
+                            <td>
+                                <!-- <p>https://www.semjuice.com/blog/netlinking-comment-optimiser-ancres-liens-risque-m19</p> -->
+                                <!-- <p>https://optimiz.me/optimiser-ses-ancres/#:~:text=Avoir%20un%20profil%20de%20liens%20diversifi%C3%A9&text=Pour%20cela%20l'id%C3%A9e%20est,cl%C3%A9s%20important%20pour%20votre%20site.</p> -->
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div><!-- Fin tableau -->
+
+                <!-- Tableau SEO -->
+                <div class="col-12 my-5" id="seo">
+                    <h2 class="text-center">SEO</h2>
+                    <table class="table table-hover table-striped table-bordered border-info text-center fs-5">
+                        <thead>
+                            <tr>
+                                <th scope="col">Problème identifié</th>
+                                <th scope="col">Explication du problème</th>
+                                <th scope="col">Bonne pratique à adopter</th>
+                                <th scope="col">Action recommandée</th>
+                                <th scope="col">Référence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>Balise meta <br> 
+                                        <code>«description»</code> <br> 
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Balise meta description n'est pas renseigner.</p>
+                                </td>
+                                <td>
+                                    <p>La balise meta description fournit un résumé du contenu d'une page que les moteurs de recherche incluent dans les résultats de recherche.</p>
+                                    <p>Elle conserve un rôle important pour le trafic d'un site web, en raison de son efficacité “marketing”.</p> 
+                                    <p>Faire des descriptions claires et concises.</p>
+                                </td>
+                                <td>
+                                    <p>Inclure un contenu de haute qualité, des mots-clés relatifs au contenu de la page rendra le page plus pertinente et peut augmenter le trafic de recherche.</p>
+                                </td>
+                                <td>
+                                    <!-- <p>https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML</p> -->
+                                    <!-- <p>https://developers.google.com/search/docs/advanced/appearance/good-titles-snippets?visit_id=637579088938003151-2276879108&rd=1#1</p> -->
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p>Utilisation excessive de la balise <br> <code> «div»</code> (code divite)</p>
+                                </td>
+                                <td>
+                                    <p>Le code n’est pas sémantique. Les balises <code>div</code> n’indiquent pas ce qu’elles font, autant pour le navigateur que pour le développeur.</p>
+                                    <p>Permettre un découpage plus précis des pages en délimitant des zones spécifiques.</p>
+                                    <p>Permettre aux robots d’indexations de mieux interpréter votre page web</p>
+                                    <p>Permettre une meilleure accessibilité pour les liseuse d'écran</p>
+                                </td>
+                                <td>
+                                    <p>Utiliser des balise sémantique.</p>
+                                </td>
+                                <td>
+                                    <p>Utiliser des balise sémantique pour segmenter les différentes sections.</p>
+                                </td>
+                                <td>
+                                    <!-- <p>livre css avancées(Raphaël GOETTER)</p> -->
+                                    <!-- <p>ronan-hello.fr</p> -->
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p>Balise meta <br> 
+                                        <code>«keywords»</code>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Bing indique que le fait de remplir cette balise de trop nombreux mots-clés pourrait être considéré comme une pratique abusive qui désavantagerait le site en question.</p>
+                                </td>
+                                <td>
+                                    <p>Ne pas utilisez la balise meta keywords.</p>
+                                </td>
+                                <td>
+                                    <p>Supprime la balise</p>
+                                </td>
+                                <td>
+                                    <!-- <p>https://optimiz.me/la-balise-meta-keywords/</p> -->
+                                    <!-- <p>https://seo-trench.com/balise-meta-keywords-wordpress</p> -->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- Fin tableau -->
+
+                <!-- Tableau Performance-->
+                <div class="col-12 my-5" id="perf">
+                    <h2 class="text-center">Performance</h2>
+                    <table class="table table-hover table-striped table-bordered border-info text-center fs-5">
+                        <thead>
+                            <tr>
+                                <th scope="col">Problème identifié</th>
+                                <th scope="col">Explication du problème</th>
+                                <th scope="col">Bonne pratique à adopter</th>
+                                <th scope="col">Action recommandée</th>
+                                <th scope="col">Référence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <p>balise <br><code> «script»</code></p>
+                            </td>
+                            <td>
+                                <p>L'emplacement de la basile script dans le head sans l'attribut defer ou async, bloque et arrête l'analyse du document HTML le temps de téléchargéerpuis exécuté fichier script..</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>Insere un attribut defer sur tous les balise script dans le head.</p>
+                            </td>
+                            <td>
+                                <!-- <p>https://developer.mozilla.org/fr/docs/Web/HTML/Element/script</p> -->
+                            </td>
+
+                            <tr>
+                                <td>
+                                    <p>taille et format images</p>
+                                </td>
+                                <td>
+                                    <p>Certaines images sont trop lourdes</p>
+                                </td>
+                                <td>
+                                    <p>3 images sont en bitmap, bonne qualité mais très lourde car non compressée.</p>
+                                    <p>Sur l'image 1, nous voyons qu'elle fait 1003 pixels par 1003 pixels
+                                        alors que son contenant ne fait que 270 pixels par 270 pixels</p>
+                                </td>
+                                <td>
+                                    <p>convertir en jpeg et réduire l'image, pour avoir un site moins lourd lors du chargement de la page.</p>
+                                </td>
+                                <td>
+                                    <!-- <p>https://ronan-hello.fr/series/html/optimiser-chargement-images#:~:text=Pour%20des%20images%20avec%20des,qualit%C3%A9%20lors%20de%20la%20compression.</p> -->
+                                    <!-- <p>http://oseox.fr/performance/optimisation-image.html</p> -->
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <p>Bootstrap@3.3.5</p>
+                                    <p>jQuery@2.1.0</p>
+                                </td>
+                                <td>
+                                    <p>Bootstrap@3.3.5 est vulnérable au Cross-site Scripting (XSS) dans data-template, data-content et aux data-title propriétés de tooltip/popover.</p>
+                                    <p>Les versions de jQuery sur ou au-dessus de 1.4.0 et au-dessous de 1.12.0 (version 1.12.3 et au-dessus mais au-dessous de 3.0.0-beta1 également) sont vulnérables à XSS via des réponses texte/javascript de tiers ( La requête CORS tierce peut s'exécuter).</p>
+                                </td>
+                                <td>
+                                    <p>Mettre bootstrap à niveau vers la version 3.4.0</p>
+                                    <p>jQuery version 1.12.0 et 2.2.0 ont été publiées pour résoudre le problème.</p>
+                                </td>
+                                <td>
+                                    <p></p>
+                                    <p>Utiliser la version jquery-2.2.0.js car correctif a été rétabli en Janvier 2016.</p>
+                                </td>
+                                <td>
+                                    <!-- <p>http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/</p> -->
+                                    <p></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- Fin tableau -->
+                
+                <h2 class="h1 text-center mt-5"><ins>Rapport d’optimisation</ins></h2>
+                
+                <div class="mx-5 d-flex justify-content-center flex-column">
+                    <ol class="lead fs-4 mt-5 mx-5 ps-5">
+                        <h2 class="text-center">Acceuil</h2>
+                        <li class="ms-5 ps-2">Mise en place d'une valeur valide dans la balise <code>html lang="fr"</code></li>
+                        <li class="ms-5 ps-2">Mise en place d'un contenu pour la balise <code>description</code> et <code>title</code> </li>
+                        <li class="ms-5 ps-2">suppression de la meta <code>Keywords</code></li>
+                        <li class="ms-5 ps-2">Conversion de la favicon pour quel s'adapte à tous type d'appareil</li>
+                        <li class="ms-5 ps-2">Mise en place de l'attribut <code>defer</code> pour un chargement des fichiers js une fois que la page html aura été charger entièrement </li>
+                        <li class="ms-5 ps-2">mise en place de balise sémentique pour améliorer l’identification du contenu</li>
+                        <li class="ms-5 ps-2">mise en place d'attribut aria-label ainsi permettre au liseuse d'ecran lire le contenu</li>
+                        <li class="ms-5 ps-2">mise en place amilioration des textes alternatif <code>alt</code></li>
+                        <li class="ms-5 ps-2">Suppression de balise sans contenu et de 3 classes Keywords qui servai à masquer du texte.</li>
+                        <li class="ms-5 ps-2">replacement du texte href page2 par contact plus explicite</li>
+                        <li class="ms-5 ps-2">remplacement des textes incluent en format image par du textes.</li>
+                        <li class="ms-5 ps-2">Augumentation de la taille des paragraphes qui était tous à 11px.</li>
+                        <li class="ms-5 ps-2">Compression de toutes les images et redimmensionnement de certaines images.</li>
+                        <li class="ms-5 ps-2">Conversion de certaines image de bitmap en jpeg.</li>
+                        <li class="ms-5 ps-2">Mise en place d'une coleur d'arrière plan sur le bloc-1 bloc-3 et bloc-5</li>
+                        <li class="ms-5 ps-2">Suppression de l'arrière image des bloc-1, bloc-3, bloc-4 et bloc-5 qui donnaient un mauvais contraste au image.</li>
+                        <li class="ms-5 ps-2">Suppression des liens dans le footer (partenaire, annuaire 1 et annuaire 2) car invalide et peut-etre considérer comme du black hack.</li>
+                        <h2 class="text-center my-5">Page contact</h2>
+                        <li class="ms-5 ps-2">Modification du nom du fichier en contact</li>
+                        <li class="ms-5 ps-2">Modification du src des link et script pour pointer sur les bon fichier</li>
+                        <li class="ms-5 ps-2">Mise en place d'une valeur valide dans la balise <code>html lang="fr"</code></li>
+                        <li class="ms-5 ps-2">Mise en place d'un contenu pour la balise <code>description</code> et <code>title</code> </li>
+                        <li class="ms-5 ps-2">suppression de la meta <code>Keywords</code></li>
+                        <li class="ms-5 ps-2">Couleur du paragraphe dans le bloc-6 en #333 pour un texte plus lisible.</li>
+                        <li class="ms-5 ps-2">Mise en place de l'attribut <code>for</code> dans les labels pour les liers au input.</li>
+                        <li class="ms-5 ps-2">Mise en place de placeholder pour les inputs.</li>
+                        <li class="ms-5 ps-2">Remplacement du type email en text dans le input(Comment nous avez-vous connu?)</li>
+                        <li class="ms-5 ps-2">section contact: remplace de la balise p par une div et il a desormais comme contenu un href avec mailto et 2 paragraphe.</li>
+                    </ol>
+                </div>
+
+                <h2 class="h1 text-center my-5"><ins>Analyse comparative des résultats</ins></h2>
+                <p class="lead text-center fs-3">Ci-dessous une étude comparative de la performance, SEO et accessibilité, avant et après optimisation.</p>
+                <p class="lead text-center fs-3">Une amélioration de au moins 0, 0 et 0 % a été obtenue après les améliorations implémentées pour la performance, le SEO et l’accessibilité, respectivement.</p>
+                <p class="lead text-center fs-3">Audit du site de « La chouette agence » en termes de performance, accessibilité, bonnes pratiques et SEO avec l’outil Lighthouse de Chrome DevTools et le contraste avec color a11y.</p>
+
+                <h2 class="text-center my-5">Desktop accueil</h2>
+                <div class="col">
+                    <img class="my-5" src="img/presentation/desktop-avant-optimisation.png" width="600" class="rounded float-start" alt="...">
+                    <img class="my-5" src="img/presentation/desktop-apres-optimisation.png" width="600" class="rounded float-end" alt="...">
+                </div>
+
+                <h2 class="text-center my-5">Mobile accueil</h2>
+                <div class="col">
+                    <img class="my-5" src="img/presentation/mobile-avant-optimisation.png" width="600" class="rounded float-start" alt="...">
+                    <img class="my-5" src="img/presentation/mobile-apres-optimisation.png" width="600" class="rounded float-end" alt="...">
+                </div>
+                
+                <h2 class="text-center my-5">Desktop page contact</h2>
+                <div class="col">
+                    <img class="my-5" src="img/presentation/desktop-contact-avant-optimisation.png" width="600" class="rounded float-start" alt="...">
+                    <img class="my-5" src="img/presentation/desktop-contact-apres-optimisation.png" width="600" class="rounded float-end" alt="...">
+                </div>
+                
+                <h2 class="text-center my-5">Mobile page contact</h2>
+                <div class="col">
+                    <img class="my-5" src="img/presentation/mobile-contact-avant-optimisation.png" width="600" class="rounded float-start" alt="...">
+                    <img class="my-5" src="img/presentation/mobile-contact-apres-optimisation.png" width="600" class="rounded float-end" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>     
+</html>   
+
