@@ -821,11 +821,11 @@ a:hover, #mailto:hover {
 }
 
 .bg-banniere {
-    background-image: url("img/compressed/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/compressed/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation2 {
-    background-image: url("img/compressed/image-de-presentation.jpeg");
+    background-image: url("../img/compressed/image-de-presentation.jpeg");
 }
 
 #bloc-4-portfolio .row:nth-child(3) img {
