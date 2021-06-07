@@ -4,16 +4,27 @@
 
 <head>
     <meta charset="utf-8">
+	<!-- <meta http-equiv="Content-Security-Policy" content="script-src 'sha256-{HASHED_INLINE_SCRIPT}' 'strict-dynamic'; object-src 'none'; base-uri 'none';"> -->
     <meta name="description" content="La Chouette Agence Entreprise de webdesign située à Lyon. Besoin d'expertise pour vous aider à la création ou la refonte de votre site web?">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    <!-- <link rel="shortcut icon" type="image/png" href="favicon.jpg"> -->
+
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+
     
 	<!--# Pre chargement ameliore le First Contentful Paint  -->
 	<!-- <link rel="preload" type="text/css" href="./css/bootstrap.css"> -->
 	<!-- <link rel="preload" type="text/css" href="style.css" as="style"> -->
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
     
@@ -56,7 +67,7 @@
 						<!--# Suppression d'une balise li sans contenue  -->
 						<li>
 							<!--# Aujout d'un aria-label et remplacement  de page 2 par contactez-nous & absence focus -->
-							<a href="page2.html" aria-label="Acceder à la page de contact">Contactez-nous</a>
+							<a href="contact.html" aria-label="Acceder à la page de contact">Contactez-nous</a>
 						</li>
 						<li>
 							<!-- À supprimer -->
@@ -83,7 +94,7 @@
 					<h1 class="text-center hero-bloc-text">La chouette agence</h1>
 					<div class="text-center">
 						<!--# add aria-label & absence focus -->
-						<a href="page2.html" class="btn btn-lg btn-dark btn-clean btn-rd cta-hero btn-atomic-tangerine" aria-label="Acceder à la page de contact" id="cta-hero">Contactez-nous</a>
+						<a href="contact.html" class="btn btn-lg btn-dark btn-clean btn-rd cta-hero btn-atomic-tangerine" aria-label="Acceder à la page de contact" id="cta-hero">Contactez-nous</a>
 					</div>
 				</div>
 			</div>
@@ -171,7 +182,7 @@
 					<!--# separation du href du p et augmentation du font-size -->
 					<p>Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.</p>
 					<!--# absence focus  -->
-					<p><a href="page2.html" aria-label="Acceder à la page de contact">Contactez notre équipe</a></p>
+					<p><a href="contact.html" aria-label="Acceder à la page de contact">Contactez notre équipe</a></p>
 				</div>
 			</div>
 		</article>
@@ -226,7 +237,7 @@
 	<!-- bloc-4-portfolio END -->
 
 	<!-- bloc-5-cta -->
-	<!--# Suppresion de du background img texture-paper.png et des deux classe bloc-bg-texture, texture-paper -->
+	<!--# Suppresion du background img texture-paper.png et des deux classe bloc-bg-texture, texture-paper -->
 	<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc " id="bloc-5-cta">
 		<div class="container bloc-lg">
 			<!--# Add background color  -->
@@ -236,7 +247,7 @@
 				</h2>
 				<div class="col-sm-12 text-center">
 					<!--# absence focus & aria-label -->
-					<a href="page2.html" aria-label="Acceder à la page de contact" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contactez-nous</a>
+					<a href="contact.html" aria-label="Acceder à la page de contact" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contactez-nous</a>
 				</div>
 			</article>
 		</div>
@@ -245,7 +256,7 @@
 
 	<!-- Footer - bloc-8 -->
 	<!--# add balise footer -->
-	<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+	<footer class="bloc bgc-atomic-tangerine-footer d-bloc" id="bloc-8">
 		<div class="container bloc-sm">
 			<div class="row">
 				<div class="col-sm-12">

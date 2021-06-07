@@ -85,11 +85,6 @@ button {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/img-inutile/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -583,6 +578,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
+    padding-bottom: 15px;
 }
 
 .lightbox-caption {
@@ -643,6 +639,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .lightbox-caption {
+    text-align: center;
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
@@ -800,7 +797,10 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f3976c;
+    background-color: rgba(243, 151, 108,0.6);
+}
+.bgc-atomic-tangerine-footer {
+    background-color: rgb(243, 151, 108);
 }
 
 .ltc-atomic-tangerine {
