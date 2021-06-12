@@ -1,5 +1,0 @@
-# Site laisser libre à tous les robots
-User-agent: *
-Disallow:
-
-Sitemap: https://dikize.github.io/KaboreLucien_4_08052021/index.html
